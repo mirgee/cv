@@ -1,0 +1,278 @@
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Miroslav}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Kovář}}}}} % Last name
+	
+	\vspace{6pt}
+	
+	{\huge Software Engineer} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.33\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	% \icon{MapMarker}{12}{Praha}\\
+	\icon{At}{10}{\href{mailto:miroslavkovar@protonmail.com}{miroslavkovar@protonmail.com}}\\	
+    \icon{Linkedin}{10}{\href{https://www.linkedin.com/in/miroslav-kovar-a9b06b115/}{\scriptsize linkedin.com/in/miroslav-kovar-a9b06b115/}}\\
+\end{minipage}
+\begin{minipage}[t]{0.3\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{Phone}{10}{+420 777 273 308}\\
+	\icon{Github}{10}{\href{https://github.com/mirgee}{github.com/mirgee}}\\
+    % \icon{Twitter}{12}{\href{https://twitter.com/@mirgeee}{@mirgee}}\\
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Who Am I?}
+
+\begin{minipage}[t]{1\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+Recent mathematics and computer science graduate of the Faculty of Nuclear Sciences and Physical Engineering, CTU in Prague with experience and interest in software development, open-source, blockchain based technologies, machine learning and data science.\\
+
+Strong background in mathematics and computer science along with passion for learning and problem solving enable me to learn and adapt quickly, see connections between seemingly disparate concepts, and solve challanging problems effectively. Nothing will ever stop me from challenging myself, learning and broadening my horizons.
+
+\end{minipage}
+\hfill % Whitespace between
+% \begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+% 	\vspace{-\baselineskip} % Required for vertically aligning minipages
+% 	\begin{barchart}{5.5}
+% 		\baritem{Python}{100}
+% 		% \baritem{Python ML/DS stack}{70}
+% 		% \baritem{Git}{70}
+% 		\baritem{SQL}{50}
+% 		\baritem{C++/CUDA}{40}
+% 		\baritem{Bash}{40}
+% 		\baritem{Go}{30}
+% 		\baritem{Java}{20}
+% 		% \baritem{LaTeX}{60}
+%         % \baritem{Vim}{70}
+% 	\end{barchart}
+% \end{minipage}
+
+   \begin{center}
+	\bubbles{
+      5/Python,
+      4/{ML/DS},
+      4/git,
+      4/Linux,
+      2.5/SQL,
+      2/{C++/CUDA},
+      2/Bash,
+      2/Go,
+      1/Java,
+      2.5/LaTex,
+      3.5/Vim
+    }
+    \end{center}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{2016 -- 2019}
+		{Master's Degree\\\footnotesize{Mathematics of Computer Science}}
+		{Faculty of Nuclear Sciences and Physical Engineering, CTU}
+        {\emph{Graduated with honors}\\Game Theory, Information Theory, Complexity Theory, Image Processing, Decision Making Theory, Graph Theory, Parallel Computing, Neural Networks, Regression Analysis, Mathematical Logic.}
+	\entry
+		{2013-2016}
+		{Bachelor's Degree\\\footnotesize{Mathematics of Computer Science}}
+		{Faculty of Nuclear Sciences and Physical Engineering, CTU}
+		{\emph{Graduated with honors}\\Real Analysis, Discrete Mathematics, Differential Equations, Abstract Algebra, Algorithmization, Linear Algebra, Numerical Mathematics, Probability and Statistics, Theory of Codes, Computer Graphics.}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{8/2019 -- Present}
+		{Contributor}
+        {\href{https://github.com/lbryio/lbry-sdk}{LBRY}}
+        {
+          Contributed enhancements and bugfixes to various parts of OS blockchain based content sharing application including its distributed hash table, CLI, logging, data sanitization, file download, streaming, etc.\\
+          \texttt{Python}\slashsep\texttt{asyncio}\slashsep\texttt{Docker}\slashsep\texttt{DHT}\slashsep\texttt{SQL}\slashsep\texttt{Blockchain}\slashsep\texttt{BitTorrent}}
+	\entry
+		{9/2018 -- 11/2018}
+		{Software Developer}
+        {\href{https://spaceknow.com/}{SpaceKnow}}
+        {Developed backend system for geospatial imagery analysis product as part of highly skilled team following best practices, including TDD, clean code guidelines, documentation, automatic generation of release changes from git history, etc. Set up CI platform for the project using CircleCI.\\
+        \texttt{Python}\slashsep\texttt{Docker}\slashsep\texttt{Kubernetes}\slashsep\texttt{RabbitMQ}\slashsep\texttt{Redis}\slashsep\texttt{CircleCI}\slashsep\texttt{Bash}}
+	\entry
+		{7/2016 -- 5/2017\\\footnotesize{part-time}}
+		{Software Developer}
+        {\href{https://www.concur.com/}{Concur}}
+        {Developed, tested, and deployed a microservice API responsible for displaying hotel search results to the users as part of international agile team. Maintained legacy codebase. Created metric visualization dashboards with ELK Stack and New Relic. \\ 
+        \texttt{Go}\slashsep\texttt{Docker}\slashsep\texttt{CircleCI}\slashsep\texttt{ELK Stack}\slashsep\texttt{New Relic}}
+	\entry
+        {6/2015 -- 7/2016\\\footnotesize{part-time}}
+		{Quality Engineer}
+        {\href{https://www.concur.com/}{Concur}}
+        {Tested and deployed an image recognition (receipt scanning OCR) feature into expense management mobile app. Developed API tests with \texttt{JUnit}.\\
+          \texttt{Android}\slashsep\texttt{iOS}\slashsep\texttt{Jira}\slashsep\texttt{XCode}\slashsep\texttt{Android Studio}\slashsep\texttt{JUnit}\slashsep\texttt{Espresso}\slashsep\texttt{SQL}}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+\newpage
+\cvsect{Publications}
+
+\begin{entrylist}
+	\entry
+	  {11/2018}
+	  {\href{https://www.sciencedirect.com/science/article/pii/S1877050918323792}{Motion Memory: Invariant representations of sequences in cortical L2/3 by Hierarchical Temporal Memory}}
+	  {}
+	  {Co-authored a paper on an extension to a brain-inspired algorithm for learning sequences and forming their sparse distributed semantic representations.}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS
+%----------------------------------------------------------------------------------------
+\cvsect{Projects}
+
+\begin{entrylist}
+	\entry
+		{}
+		{\href{https://www.scribd.com/document/414005885/Biomarker-Analysis-of-Psychiatric-Patients-using-EEG-Signal-Analysis-and-Machine-Learning}{Biomarker Analysis of Psychiatric Patients using EEG Signal Analysis and Machine Learning}}
+		{\\Master's thesis}
+		{Implemented and compared two techniques of EEG signal analysis in depression: non-linear dynamical analysis and convolutional neural networks trained on time series data and recurrence plot. Detailed end-to-end data analysis and machine learning project, including detailed input data and results analysis and cleansing. \\
+         \texttt{Python}\slashsep\texttt{Numpy}\slashsep\texttt{Pandas}\slashsep\texttt{Sci-kit Learn}\slashsep\texttt{Matplotlib}\slashsep\texttt{Seaborn}\slashsep\texttt{Keras}}
+	\entry
+		{}
+		{\href{https://www.scribd.com/document/372696825/Continual-resolving-heuristics-for-the-PAWS-domain}{Heuristics for Continual Resolving algorithm with application to wildlife security games}}
+		{\\Research project}
+		{Modelled a wildife protection problem as a ranger vs. poacher security game, implemented and compared various heuristics for computing the agents strategy.\\
+         \texttt{Python}\slashsep\texttt{Pandas}\slashsep\texttt{Matplotlib}
+        }
+
+	\entry
+		{}
+		{\href{}{Implementation of an algorithm for algebraic operations with continued fractions into open-source mathematical software SageMath}}
+		{\\Bachelor's thesis}
+		{Contributed a number theory algorithm to open-source mathematical software SageMath.
+         \\\texttt{Python}
+        }
+
+	\entry
+		{}
+		{\href{https://github.com/mirgee/sp_cuda}{Implementation of Spatial Pooler (C++ / CUDA)}}
+		{}
+		{Parallel implementation of brain-inspired machine learning algorithm for semantic-preserving compression algorithm in CUDA.
+          % \\\texttt{C++}\slashsep\texttt{CUDA}
+        }
+
+	\entry
+		{}
+		{\href{https://github.com/mirgee/iterated_prisoner-s_dilemma}{Iterated prisoner's dilemma simulator (C++)}}
+		{}
+		{Simulator for repeated prisoner's dilemma games, including interface for implementation of custom strategies and evaluation of those strategies.
+          %\\\texttt{C++}
+        }
+
+	\entry
+		{}
+		{\href{https://github.com/mirgee/w_method}{Various software testing algorithms (Python)}}
+		{}
+		{W method, def-use and prime paths, mutually orthogonal latin squares and orthogonal arrays.
+         % \\\texttt{Python}
+        }
+
+	\entry
+		{}
+		{\href{https://github.com/mirgee/book_recommender}{Book recommender (Python)}}
+		{}
+		{Data analysis and cleansing, implementation of collaborative filtering recommender based on user ratings.
+         % \\\texttt{Python}\slashsep\texttt{Pandas}
+        }
+
+	\entry
+		{}
+		{\href{https://github.com/mirgee/raytracing_engine}{Raytracing engine (Java)}}
+		{}
+		{Implementation of constrained raytracing algorithm, along with user-controlled camera movement.
+         % \\\texttt{Java}
+        }
+
+	\entry
+		{}
+		{\href{}{Contributions to open-source (Python / C++)}}
+		{}
+		{LBRY, SageMath, nolitsa
+         % \\\texttt{Python}\slashsep\texttt{Numpy}\slashsep\texttt{Sci-kit Learn}\slashsep\texttt{C++}
+        }
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Teaching experience}
+
+\textbf{Mathematics and physics tutoring}\\Lead personal and group tutoring sessions in high school / university level mathematics and physics helping people succeed in admission tests and university examinations.
+
+
+\begin{minipage}[t]{0.5\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Languages}
+	
+	\textbf{Czech} - native\\
+	\textbf{English} - proficient\\
+	\textbf{French} - rudimentary\\
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.5\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Certificates}
+
+	{\textbf{\href{http://www.cambridgeenglish.org/exams/proficiency/?utm_campaign=linkedinprof}{Cambridge English: Proficiency (CPE)}}\\\footnotesize{Cambridge English Language Assessment}}
+\end{minipage}
+\hfill
+\\
+% \begin{minipage}[t]{0.5\textwidth}
+% 	\vspace{-\baselineskip} % Required for vertically aligning minipages
+% 	
+% 	\cvsect{Volunteering}
+% 	
+% 	Contributor to Open-Source 
+% \end{minipage}
+% \hfill
+\cvsect{Interests}{
+\textbf{Professional:} blockchain and decentralized technologies, open-source, data science and machine learning
+
+\textbf{Personal:} self-improvement, (neuro)science, pedagogy, running}
+% \hspace{0.3\textwidth}
+% %----------------------------------------------------------------------------------------
+
+\end{document}
