@@ -50,9 +50,9 @@
 
 \begin{minipage}[t]{1\textwidth} % 40% of the page width for the introduction text
 	\vspace{-\baselineskip} % Required for vertically aligning minipages
-Recent mathematics and computer science graduate of the Faculty of Nuclear Sciences and Physical Engineering, CTU in Prague with experience and interest in software development, open-source, decentralized distributed technologies, machine learning and data science.\\
+  Experienced professional with a strong background in mathematics and computer science, graduated from the Faculty of Nuclear Sciences and Physical Engineering, CTU in Prague. Over the past years, I have gained extensive experience in software development within a corporate environment, particularly in the domain of Self-Sovereign Identity (SSI). I successfully led a small team from proof of concept to production while maintaining an open-source project with a growing community in this domain. Currently, I am part of a decentralized ledger technology team focused on delivering an international payment solution for the organization. \\
 
-Strong background in mathematics and computer science along with passion for learning and problem solving enable me to learn and adapt quickly, see connections between seemingly disparate concepts, and solve challanging problems effectively. Nothing will ever stop me from challenging myself, learning and broadening my horizons.
+I am exceedingly passionate about learning and solving challenging problems of all kinds in the most effective way possible, all the while managing complexity and keeping business value in focus. Moreover, I am looking to continuously expand my knowledge of distributed systems, cryptography, software architecture, open-source, machine learning, and data science.
 
 \end{minipage}
 \hfill % Whitespace between
@@ -72,27 +72,84 @@ Strong background in mathematics and computer science along with passion for lea
 % 	\end{barchart}
 % \end{minipage}
 
-   \begin{center}
-	\bubbles{
-      5/Python,
-      4/{ML/DS},
-      4/git,
-      4/Linux,
-      2.5/SQL,
-      2/{C++/CUDA},
-      2/Bash,
-      2/Go,
-      1/Java,
-      % 1/Lua,
-      2.5/LaTex,
-      4/Vim
-    }
-    \end{center}
+ %   \begin{center}
+	% \bubbles{
+ %      5/Python,
+ %      4/{ML/DS},
+ %      4/git,
+ %      4/Linux,
+ %      2.5/SQL,
+ %      2/{C++/CUDA},
+ %      2/Bash,
+ %      2/Go,
+ %      1/Java,
+ %      % 1/Lua,
+ %      2.5/LaTex,
+ %      4/Vim
+ %    }
+ %    \end{center}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{5/2024 - Present}
+        {Software Engineer - Decentralized Ledger Technologies}
+        {\href{https://www.absa.co.za/}{Absa Group}}
+        {
+          Privacy-preserving international payments solution based on private Hyperledger Besu deployment.\\
+          Converted the underlying range-proof technology from binary range proof to Bulletproofs within the first month of joining the project, increasing the proof verification speed by 32x and decreasing the proof size by ~100x, thus increasing the theoretical maximum transaction throughput.\\
+          \texttt{Node.js}\slashsep\texttt{Typescript}\slashsep\texttt{Solidity}\slashsep\texttt{AWS}\slashsep\texttt{Terraform}\slashsep\texttt{Docker}\slashsep\texttt{Hyperledger Besu}\slashsep\texttt{Tessera}
+        }
+	\entry
+		{11/2019 - 5/2024}
+        {Software Engineer - Self-Soverign Identity}
+        {\href{https://www.absa.co.za/}{Absa Group}}
+        {
+          Lead a small team to deliver an SSI solution for the KYC process, from proof-of-concept to production.\\
+          Maintained \href{https://github.com/hyperledger/aries-vcx}{aries-vcx} open-source project.\\
+          Made technical decisions based on business demands, technical presentations, interviews, onboarding, mentorship, team conflict resolution.\\
+          \texttt{Rust}\slashsep\texttt{Node.js}\slashsep\texttt{Typescript}\slashsep\texttt{AWS}\slashsep\texttt{Terraform}\slashsep\texttt{Docker}\slashsep\texttt{Github Actions}\slashsep\texttt{Hyperledger Indy}
+        }
+	\entry
+		{8/2019 -- 11/2019}
+        {\href{https://github.com/lbryio/lbry-sdk/pulls?utf8=\%E2\%9C\%93\&q=is\%3Apr+author\%3Amirgee+}{Contributor}}
+        {\href{https://github.com/lbryio/lbry-sdk/pulls?utf8=\%E2\%9C\%93\&q=is\%3Apr+author\%3Amirgee+}{LBRY}}
+        {
+          Contributed enhancements and bugfixes to various parts of OS blockchain based content sharing application including its distributed hash table, CLI, logging, data sanitization, file download, streaming, etc.\\
+          \texttt{Python}\slashsep\texttt{asyncio}\slashsep\texttt{Docker}\slashsep\texttt{DHT}\slashsep\texttt{SQL}\slashsep\texttt{blockchain}\slashsep\texttt{BitTorrent}
+        }
+	\entry
+		{9/2018 -- 11/2018}
+		{Software Developer}
+        {\href{https://spaceknow.com/}{SpaceKnow}}
+        {Developed backend system for geospatial imagery analysis product as part of highly skilled team following best practices, including TDD, clean code guidelines, documentation, automatic generation of release changes from git history, etc. Set up CI platform for the project using CircleCI.\\
+        \texttt{Python}\slashsep\texttt{Docker}\slashsep\texttt{Kubernetes}\slashsep\texttt{RabbitMQ}\slashsep\texttt{Redis}\slashsep\texttt{CircleCI}\slashsep\texttt{Bash}}
+	\entry
+		{7/2016 -- 5/2017\\\footnotesize{part-time}}
+		{Software Developer}
+        {\href{https://www.concur.com/}{Concur}}
+        {
+          Developed, tested, and deployed a microservice API responsible for displaying hotel search results to the users as part of international agile team. Maintained legacy codebase. Created metric visualization dashboards with ELK Stack and New Relic. \\ 
+        \texttt{Go}\slashsep\texttt{Docker}\slashsep\texttt{CircleCI}\slashsep\texttt{ELK Stack}\slashsep\texttt{New Relic}
+        }
+	\entry
+        {6/2015 -- 7/2016\\\footnotesize{part-time}}
+		{Quality Engineer}
+        {\href{https://www.concur.com/}{Concur}}
+        {
+          Tested and deployed an image recognition (receipt scanning OCR) feature into expense management mobile app. Developed API tests with \texttt{JUnit}.\\
+          \texttt{Android}\slashsep\texttt{iOS}\slashsep\texttt{Jira}\slashsep\texttt{XCode}\slashsep\texttt{Android Studio}\slashsep\texttt{JUnit}\slashsep\texttt{Espresso}\slashsep\texttt{SQL}
+        }
+\end{entrylist}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
-
 \cvsect{Education}
 
 \begin{entrylist}
@@ -109,43 +166,8 @@ Strong background in mathematics and computer science along with passion for lea
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
-%	EXPERIENCE
-%----------------------------------------------------------------------------------------
-
-\cvsect{Experience}
-
-\begin{entrylist}
-	\entry
-		{8/2019 -- Present}
-        {\href{https://github.com/lbryio/lbry-sdk/pulls?utf8=\%E2\%9C\%93\&q=is\%3Apr+author\%3Amirgee+}{Contributor}}
-        {\href{https://github.com/lbryio/lbry-sdk/pulls?utf8=\%E2\%9C\%93\&q=is\%3Apr+author\%3Amirgee+}{LBRY}}
-        {
-          Contributed enhancements and bugfixes to various parts of OS blockchain based content sharing application including its distributed hash table, CLI, logging, data sanitization, file download, streaming, etc.\\
-          \texttt{Python}\slashsep\texttt{asyncio}\slashsep\texttt{Docker}\slashsep\texttt{DHT}\slashsep\texttt{SQL}\slashsep\texttt{blockchain}\slashsep\texttt{BitTorrent}}
-	\entry
-		{9/2018 -- 11/2018}
-		{Software Developer}
-        {\href{https://spaceknow.com/}{SpaceKnow}}
-        {Developed backend system for geospatial imagery analysis product as part of highly skilled team following best practices, including TDD, clean code guidelines, documentation, automatic generation of release changes from git history, etc. Set up CI platform for the project using CircleCI.\\
-        \texttt{Python}\slashsep\texttt{Docker}\slashsep\texttt{Kubernetes}\slashsep\texttt{RabbitMQ}\slashsep\texttt{Redis}\slashsep\texttt{CircleCI}\slashsep\texttt{Bash}}
-	\entry
-		{7/2016 -- 5/2017\\\footnotesize{part-time}}
-		{Software Developer}
-        {\href{https://www.concur.com/}{Concur}}
-        {Developed, tested, and deployed a microservice API responsible for displaying hotel search results to the users as part of international agile team. Maintained legacy codebase. Created metric visualization dashboards with ELK Stack and New Relic. \\ 
-        \texttt{Go}\slashsep\texttt{Docker}\slashsep\texttt{CircleCI}\slashsep\texttt{ELK Stack}\slashsep\texttt{New Relic}}
-	\entry
-        {6/2015 -- 7/2016\\\footnotesize{part-time}}
-		{Quality Engineer}
-        {\href{https://www.concur.com/}{Concur}}
-        {Tested and deployed an image recognition (receipt scanning OCR) feature into expense management mobile app. Developed API tests with \texttt{JUnit}.\\
-          \texttt{Android}\slashsep\texttt{iOS}\slashsep\texttt{Jira}\slashsep\texttt{XCode}\slashsep\texttt{Android Studio}\slashsep\texttt{JUnit}\slashsep\texttt{Espresso}\slashsep\texttt{SQL}}
-\end{entrylist}
-
-%----------------------------------------------------------------------------------------
 %	PUBLICATIONS
 %----------------------------------------------------------------------------------------
-\newpage
 \cvsect{Publications}
 
 \begin{entrylist}
@@ -159,7 +181,7 @@ Strong background in mathematics and computer science along with passion for lea
 %----------------------------------------------------------------------------------------
 %	PROJECTS
 %----------------------------------------------------------------------------------------
-\cvsect{Projects}
+\cvsect{Public projects}
 
 \begin{entrylist}
 	\entry
@@ -186,50 +208,97 @@ Strong background in mathematics and computer science along with passion for lea
 
 	\entry
 		{}
-		{\href{https://github.com/mirgee/sp_cuda}{Implementation of Spatial Pooler (C++ / CUDA)}}
+		{\href{https://github.com/hyperledger/aries-vcx}{aries-vcx}}
+		{}
+    {A complete software development kit for delivering SSI solutions written in Rust. Among the tools it provides are implementions of many of the \href{https://didcomm.org/}{DIDComm} and \href{https://github.com/hyperledger/aries}{Hyperledger Aries} communication protocols, DID parsing, DID resolution, Indy ledger data exchange, etc.\\
+         \texttt{Rust}}
+
+	\entry
+		{}
+		{\href{https://github.com/mirgee/web3-plugin-private}{Web3.js plugin for private transactions}}
+		{}
+    {A plugin extension to the \href{https://github.com/web3/web3.js}{web3.js} Ethereum client adding support for \href{https://besu.hyperledger.org/development/private-networks/concepts/privacy/private-transactions}{private transactions}.\\
+         \texttt{Typescript}}
+
+	\entry
+		{}
+		{\href{https://github.com/mirgee/sp_cuda}{Implementation of Spatial Pooler}}
 		{}
 		{Parallel implementation of brain-inspired machine learning algorithm for semantic-preserving compression in CUDA.
-          % \\\texttt{C++}\slashsep\texttt{CUDA}
+          \\\texttt{C++}\slashsep\texttt{CUDA}
         }
 
 	\entry
 		{}
-		{\href{https://github.com/mirgee/iterated_prisoner-s_dilemma}{Iterated prisoner's dilemma simulator (C++)}}
+		{\href{https://github.com/AbsaOSS/aries-oob-shortener}{Aries OOB message shortener}}
+		{}
+    {Shortener for the URL-formatted \href{https://github.com/hyperledger/aries-rfcs/blob/main/features/0434-outofband/README.md}{Out-of-Band} Aries messages.\\
+         \texttt{Rust}}
+	\entry
+		{}
+		{\href{https://github.com/mirgee/mini-lsm}{Simple database}}
+		{}
+    {After reading \href{https://www.goodreads.com/en/book/show/23463279-designing-data-intensive-applications}{Designing of Data Intensive Applications} by Martin Kleppmann, I became interested in (among other things) databases and related data structures, so I implemented a simple database in Rust based on the \href{https://skyzh.github.io/mini-lsm/}{Mini-LSM} book.\\
+         \texttt{Rust}}
+	\entry
+		{}
+		{\href{https://github.com/mirgee/rust-os}{Simple operating system}}
+		{}
+    {A \href{https://os.phil-opp.com/}{tutorial}-based exploration of operating system programming in Rust.\\
+         \texttt{Rust}}
+
+	\entry
+		{}
+		{\href{https://github.com/mirgee/tcp}{TCP protocol implementation}}
+		{}
+    {I attempted to implement the TCP protocol based on the \href{https://www.rfc-editor.org/rfc/rfc793}{original RFC} in Rust.\\
+         \texttt{Rust}}
+
+	\entry
+		{}
+		{\href{https://github.com/mirgee/iterated_prisoner-s_dilemma}{Iterated prisoner's dilemma simulator}}
 		{}
 		{Simulator for repeated prisoner's dilemma games, including interface for implementation of custom strategies and evaluation of those strategies.
-          %\\\texttt{C++}
+          \\\texttt{C++}
         }
 
 	\entry
 		{}
-		{\href{https://github.com/mirgee/w_method}{Various software testing algorithms (Python)}}
+		{\href{https://github.com/mirgee/w_method}{Various software testing algorithms}}
 		{}
 		{W method, def-use and prime paths, mutually orthogonal latin squares and orthogonal arrays.
-         % \\\texttt{Python}
+         \\\texttt{Python}
         }
 
 	\entry
 		{}
-		{\href{https://github.com/mirgee/book_recommender}{Book recommender (Python)}}
+		{\href{https://github.com/mirgee/book_recommender}{Book recommender}}
 		{}
 		{Data analysis and cleansing, implementation of collaborative filtering recommender based on user ratings.
-         % \\\texttt{Python}\slashsep\texttt{Pandas}
+         \\\texttt{Python}\slashsep\texttt{Pandas}
         }
 
 	\entry
 		{}
-		{\href{https://github.com/mirgee/raytracing_engine}{Raytracing engine (Java)}}
+		{\href{https://github.com/mirgee/raytracing_engine}{Raytracing engine}}
 		{}
 		{Implementation of constrained raytracing algorithm, along with user-controlled camera movement.
-         % \\\texttt{Java}
+         \\\texttt{Java}
         }
 
 	\entry
 		{}
-		{\href{}{Contributions to open-source (Python / C++)}}
+		{\href{https://github.com/mirgee/advent-of-code}{Advent of Code}}
 		{}
-		{LBRY, Numenta, SageMath, Nolitsa
-         % \\\texttt{Python}\slashsep\texttt{Numpy}\slashsep\texttt{Sci-kit Learn}\slashsep\texttt{C++}
+    {I participated in the Advent of Code 2023 (and had a great fun doing so).\\
+         \texttt{Rust}}
+
+	\entry
+		{}
+		{\href{}{Other contributions to open-source}}
+		{}
+		{Aries-Agent Test Harness, LBRY, Numenta, SageMath, Nolitsa
+         \\\texttt{Rust}\\\texttt{Python}\slashsep\texttt{Numpy}\slashsep\texttt{Sci-kit Learn}\slashsep\texttt{C++}
         }
 \end{entrylist}
 
@@ -270,9 +339,9 @@ Strong background in mathematics and computer science along with passion for lea
 % \end{minipage}
 % \hfill
 \cvsect{Interests}{
-\textbf{Professional:} blockchain and decentralized technologies, open-source, data science and machine learning
+\textbf{Professional:} distributed systems, cryptography, open-source, software architecture, machine learning and data science
 
-\textbf{Personal:} self-improvement, (neuro)science, psychology, pedagogy, running}
+\textbf{Personal:} self-improvement, (neuro)science, reading, playing music, running}
 % \hspace{0.3\textwidth}
 % %----------------------------------------------------------------------------------------
 
